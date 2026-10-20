@@ -1,0 +1,21 @@
+# Data and licensed vocabulary never go in the repo
+*.duckdb
+*.duckdb.wal
+*.csv
+!reference/*.csv
+!output/*.csv
+*.zip
+synpuf_raw/
+OHDSI_Vocabularies_*/
+UMLS/
+api_key*
+.env
+.Renviron
+
+# R and RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+renv/staging/
