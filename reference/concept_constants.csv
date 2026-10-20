@@ -1,0 +1,11 @@
+source_field,source_code,source_meaning,concept_id,expected_concept_name,domain_id
+BENE_SEX_IDENT_CD,1,Male,8507,MALE,Gender
+BENE_SEX_IDENT_CD,2,Female,8532,FEMALE,Gender
+BENE_RACE_CD,1,White,8527,White,Race
+BENE_RACE_CD,2,Black,8516,Black or African American,Race
+BENE_RACE_CD,3,Others,0,No matching concept,
+BENE_RACE_CD,5,Hispanic,0,No matching concept,
+ETHNICITY,5,Hispanic (from BENE_RACE_CD),38003563,Hispanic or Latino,Ethnicity
+ETHNICITY,other,Not Hispanic (all other BENE_RACE_CD values),38003564,Not Hispanic or Latino,Ethnicity
+TYPE,death,Death recorded in the Medicare beneficiary file,32810,Claim,Type Concept
+TYPE,observation_period,Observation period derived by a rule in this ETL,32880,Standard algorithm,Type Concept

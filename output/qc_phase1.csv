@@ -1,0 +1,19 @@
+"check_name","severity","n_flagged","n_base","pct_flagged"
+"person_id is unique","error",0,116352,0
+"every person has exactly one observation period","error",0,116352,0
+"observation period end on or after start","error",0,116352,0
+"death date on or after birth","error",0,5461,0
+"beneficiaries dropped for a missing or invalid birth date","info",0,116352,0
+"persons dropped from observation_period (death before first file year)","info",0,116352,0
+"beneficiaries whose sex differs across yearly files","info",0,116352,0
+"beneficiaries whose birth date differs across yearly files","info",0,116352,0
+"beneficiaries whose race code differs across yearly files","info",0,116352,0
+"beneficiaries appearing in a yearly file after their death year","info",0,5461,0
+"inpatient claims starting after the death date","info",0,1853,0
+"inpatient claims starting before the observation period","info",224,66773,0.34
+"outpatient claims starting before the observation period","info",312,790790,0.04
+"beneficiary-years with zero Part A and zero Part B coverage months","info",16314,343644,4.75
+"inpatient claim rows with no matching beneficiary","info",0,66773,0
+"outpatient claim rows with no matching beneficiary","info",0,790790,0
+"carrier claim rows with no matching beneficiary","info",0,4741335,0
+"prescription drug event rows with no matching beneficiary","info",0,5552421,0

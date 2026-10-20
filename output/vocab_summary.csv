@@ -1,0 +1,15 @@
+"vocabulary_id","vocabulary_version","n_concepts","n_standard","n_named"
+"ATC","ATC 2026-02-01",7327,0,7327
+"CPT4","2026 Release",18403,10695,18403
+"Ethnicity","Ethnicity 20250807",150,150,150
+"Gender",NA,5,2,5
+"HCPCS","20260701 Alpha Numeric HCPCS File",12774,8904,12774
+"ICD9CM","ICD9CM v32 master descriptions",17564,0,17564
+"ICD9Proc","ICD9CM v32 master descriptions",4657,2223,4657
+"NDC","NDC 20260823",1327323,12540,1327323
+"Race","Version 1.0",1409,1406,1409
+"RxNorm","RxNorm 20260601",316330,158086,316330
+"RxNorm Extension","RxNorm Extension 2026-06-05",2171452,1864386,2171452
+"SNOMED","2026-02-01 SNOMED CT International Edition; 2026-03-01 SNOMED CT US Edition; 2026-04-08 SNOMED CT UK Edition",1106309,356613,1106309
+"Type Concept","Type Concept 20260202",81,81,81
+"Visit","Visit 20211216",20,20,20
